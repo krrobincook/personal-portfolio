@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="public/images/readme.png" alt="3D Portfolio Preview" width="100%" />
-
   <h1 align="center">✨ Interactive 3D Developer Portfolio ✨</h1>
 
   <p align="center">
@@ -32,8 +30,8 @@
 <summary>📖 <strong>Table of Contents</strong> (Click to expand)</summary>
 
 1. [🌟 About the Project](#-about-the-project)
-2. [🚀 Features](#-features)
-3. [⚙️ Tech Stack & Architecture](#%EF%B8%8F-tech-stack--architecture)
+2. [⚙️ Core Tech Stack](#%EF%B8%8F-core-tech-stack)
+3. [🚀 Features](#-features)
 4. [🛠️ Quick Start (Local Setup)](#-quick-start-local-setup)
 5. [💡 Performance & Optimizations](#-performance--optimizations)
 6. [📬 Contact](#-contact)
@@ -48,7 +46,14 @@ This project is a deeply interactive, 3D web-based developer portfolio. Moving f
 
 It tracks my journey as a developer, highlighting my projects, experience, educational timeline, and technical toolkit.
 
-[![Portfolio Demo Video Placeholder](public/images/readme-bottom.png)](https://github.com/krrobincook/personal-portfolio)
+---
+
+## ⚙️ Core Tech Stack
+
+- **[React 19](https://react.dev/)** & **[Vite](https://vitejs.dev/)** – Core UI component ecosystem & build tooling.
+- **[Three.js](https://threejs.org/)** & **[R3F](https://docs.pmnd.rs/react-three-fiber)** – Low-level WebGL API and React renderer for immersive 3D experiences.
+- **[Tailwind CSS v4](https://tailwindcss.com/)** – Rapid UI and responsive styling system.
+- **[GSAP](https://gsap.com/) & ScrollTrigger** – High-performance Javascript scroll animations.
 
 ---
 
@@ -61,25 +66,7 @@ It tracks my journey as a developer, highlighting my projects, experience, educa
 - 📬 **Serverless Email Forms:** Integrated direct-to-inbox messaging using `EmailJS` natively within the Contact component. 
 - 📱 **Fully Responsive Layouts:** Carefully crafted to snap properly across all viewport bounds.
 
----
 
-## ⚙️ Tech Stack & Architecture
-
-### **Core Libraries**
-| Technology | Usage |
-| :--- | :--- |
-| **[React 19](https://react.dev/)** | Core UI component ecosystem |
-| **[Vite](https://vitejs.dev/)** | Next-generation frontend build tooling |
-| **[Tailwind CSS v4](https://tailwindcss.com/)** | Rapid UI and responsive styling system |
-
-### **3D Graphics & Animations**
-| Technology | Usage |
-| :--- | :--- |
-| **[Three.js](https://threejs.org/) & [R3F](https://docs.pmnd.rs/react-three-fiber)** | Low-level WebGL API and React renderer |
-| **[@react-three/drei](https://github.com/pmndrs/drei)** | Helpful abstractions for 3D components |
-| **[GSAP](https://gsap.com/) & ScrollTrigger** | High-performance Javascript animations |
-
----
 
 ## 🛠️ Quick Start (Local Setup)
 
