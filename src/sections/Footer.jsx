@@ -2,9 +2,7 @@ const Footer = () => {
     return (
         <section className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5 px-5 md:px-10">
             <div className="text-white-500 flex gap-2">
-                <p>Terms & Conditions</p>
-                <p>|</p>
-                <p>Privacy Policy</p>
+                <p>Built with ❤️ & React Three Fiber</p>
             </div>
             
             <div className="flex gap-3">
